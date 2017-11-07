@@ -1,0 +1,534 @@
+body{
+	font-size: 16px;
+	color: #222;
+	background-color: #fff;
+	font-family: 'oxygen', sans-serif; 
+}
+
+
+/*-----------------------------------------------------------------*/
+/* Facts
+/*-----------------------------------------------------------------*/
+
+
+#facts{
+	background: url('../images/branding-01.jpg') no-repeat center center;
+}
+
+.facts-detail{
+	text-align:center;
+	margin-bottom:30px;
+	margin-top: 30px;
+}
+
+.facts-detail i {
+	font-size: 35px;
+	color:#ffffff;
+	display: inline-block;
+	margin-bottom: 25px;
+	width: 80px;
+	height: 80px;
+	background:#c0c0c0;
+	line-height: 80px;
+	border-radius: 50%;
+	border: 1px solid #FFF;
+}
+
+.facts-detail span {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 36px;
+	font-weight:500;
+	color:#fff;
+}
+
+.facts-detail p {
+	margin-bottom: 0px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight:500;
+	color:#fff;
+}
+
+.single-work-slider {
+    margin-bottom: 30px;
+}
+
+.single-work-slider .owl-controls{
+	height: 43px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	margin: auto;
+}
+
+.single-work-slider .owl-prev, .single-work-slider .owl-next{
+	display: block !important;
+	width: 50px !important;
+	height: 50px !important;
+	line-height:20px !important;
+	font-size:50px !important;
+	border-radius:0 !important;
+	opacity:1 !important;
+	background:#222 !important;
+	position: absolute !important;
+	color: #222;
+}
+
+.single-work-slider .owl-prev{
+    left: 0;
+    margin-right: 10px;
+}
+
+.single-work-slider .owl-next{
+    right: 0;
+    margin-left: 10px;
+}
+
+.single-work-slider .owl-prev:hover, .single-work-slider .owl-next:hover{
+	background:#4F3B3B !important;
+}
+
+.single-work-slider .item img{
+    display: block;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.related-project .image-wrapper{
+	margin-bottom:20px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+	background: #a0a0a0;
+}
+
+/** Header Nav**/
+#header-nav{
+	background-color: #fff;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	background: url('../images/logo.png') no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 10px 15px 10px 0;
+
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+div .container-fluid {
+	padding: 0;
+}
+
+.text-left {
+	text-align: left; 
+}
+
+.navbar-brand h1{
+	font-family: 'Lora', sans-serif;
+	color: #557c3e;
+	font-size: 1.05em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+} 
+.navbar-brand p{
+	color: #989898;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #61122f;
+}
+
+.navbar-brand p span{
+  vertical-align: middle;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #222;
+	text-align: center;
+
+}
+#nav-list a:hover {
+	background-color: #e7e7e7;
+}
+#nav-list a span{
+	font-size: 0.8em;
+	margin-right: 10px;
+}
+#phone{
+	margin-top: 18px;
+}
+#phone a{
+	text-align: right;
+	padding-bottom: 0;
+}
+
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -50px;
+}
+
+#navbar .nav navbar-nav navbar-right a{
+   margin-right: 5px;
+}
+
+#menu-tile,#menu1-tile, #menu2-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 1px solid #c0c0c0;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#menu-tile:hover, #special-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 2px 1px #c0c0c0;
+}
+
+#menu-tile{
+	background: url('../images/branding-01.jpg') no-repeat;
+	background-position: center;
+}
+
+#menu1-tile{
+	background: url('../images/branding-01.jpg') no-repeat;
+	background-position: center;
+}
+
+#menu2-tile{
+	background: url('../images/branding-01.jpg') no-repeat;
+	background-position: center;
+}
+
+#menu-tile > span, #menu1-tile > span, #menu2-tile > span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3em;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+.btn_tile{
+	margin: 0 auto;
+	height: 50px;
+	width: 100%;
+}
+
+.parallax {
+	position:relative;
+	background-attachment: fixed !important;
+	background-position: center center;
+	background-repeat: no-repeat  !important;
+	background-size: cover;
+}
+
+
+.panel-footer{
+	padding-top: 45px;
+	padding-bottom: 30px;
+	background-color: #222;
+	color: #fff;
+	border-top: 0;
+
+}
+
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+
+#hours, #address{
+	line-height: 2;
+}
+
+#hours > span, #address > span{
+	font-size: 1.3em;
+}
+
+#address p{
+	color: #557c3e;
+	font-size: 0.8em;
+	line-height: 1.8;
+}
+
+#testimonials{
+	font-style: italic;
+}
+
+#testimonials p:nth-child(2){
+	margin-top: 25px;
+}
+
+/*********Menu Category Style**********/
+
+.category-tile{
+position: relative;
+border: 2px solid #3f0c1f;
+overflow: hidden;
+width: 200px;
+height: 200px;
+margin: 0 auto 15px;
+}
+
+.category-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+    background-color: #222;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.category-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+/*********Single Category Style**********/
+.menu-item-tile{
+	margin-bottom: 25px;
+}
+
+.menu-item-tile hr{
+	width: 80%;
+}
+
+.menu-item-tile .menu-item-price{
+	font-size: 1.1em;
+	text-align: right;
+    margin-top: -15px;
+    margin-right: -15px;
+}
+
+.menu-item-tile .menu-item-price span{
+	font-size: 0.6em;
+}
+.menu-item-photo{
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+
+.menu-item-photo div{
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 80px;
+   background-color: #557c3e;
+   text-align: center; 
+}
+
+.menu-item-description{
+	padding-right: 30px;
+}
+
+h3.menu-item-title{
+	margin: 0 0 10px;
+}
+
+.menu-item-details{
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+  padding: 0;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 350px;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{
+	width: 100%;
+	height: 100%;
+}
+
+/********************Large Device Screens************************/
+@media(min-width: 1200px) {
+	.container .jumbotron{
+		background: url('../images/logo.png') no-repeat;
+		height: 675px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border:2px solid #3f0c1f;
+	}
+
+}
+
+
+/******************** Medium Device Screens************************/
+@media(min-width:992px) and (max-width:1199px){
+	header #logo-img{
+		background: url('../images/logo-medium.png') no-repeat;
+		width: 100px;
+		height: 100px;
+		margin:5px 5px 5px 0;
+	}
+
+	.container .jumbotron{
+		background: url('../images/logo.png') no-repeat;
+		height: 475px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border:2px solid #3f0c1f;
+
+	}
+
+
+}
+
+/******************** Small Device Screens Screens************************/
+@media(min-width: 768px) and  (max-width: 991px){
+	.container .jumbotron{
+		background: url('../images/logo.png') no-repeat;
+		height: 375px;
+		box-shadow: 0 0 50px #3f0c1f;
+		border:2px solid #3f0c1f;
+
+	}
+
+
+}
+
+/******************** Extra Small Device Screens************************/
+@media(max-width: 767px){
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p{
+
+		font-size: 0.6em;
+		margin-top: 12px;
+	}
+
+     .navbar-brand p img{
+     	height: 20px;
+     }
+     
+     #call-btn >a {
+         font-size: 1.5em;
+         display: block;
+         margin: 0 20px;
+         padding: 10px;
+         border: 2px solid #fff;
+         background-color: #f6b319;
+         color: #951c49;
+       }
+     #xs-deliver{
+     	margin-top: 10px;
+     	margin-bottom: 10px;
+     	font-size: 0.7em;
+     	letter-spacing: 0.1em;
+     	text-transform: uppercase;
+     }
+     .container .jumbotron{
+		
+		box-shadow: 0 0 50px #3f0c1f;
+		border:2px solid #3f0c1f;
+
+	}
+	.panel-footer section{
+margin-bottom: 30px;
+text-align: center;
+	}
+	.panel-footer section:nth-child(3){
+		margin-bottom: 0;
+
+	}
+	.panel-footer section hr{
+		width: 50%;
+	}
+
+	.menu-item-photo{
+		margin-right: auto;
+	}
+
+	.menu-item-tile .menu-item-price{
+		text-align: center;
+	}
+
+	.menu-description{
+		text-align: center;
+	}
+}
+/************************************************ Super small size etc. iPhone 4**************************/
+@media(max-width: 479px){
+	.navbar-brand h1{
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+    #menu-tile, #specials-tile{
+    	
+    	margin: 0 auto 15px;
+    }
+
+    .col-xxs-12{
+     position: relative;
+     min-height: 1px;
+     padding-right: 15px;
+     padding-left: 15px;
+     float:left;
+     width:100%; 
+    }
+
+}
