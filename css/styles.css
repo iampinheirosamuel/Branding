@@ -113,7 +113,7 @@ body{
 #call{
 	height: 300px;
 	background: url('../images/airtel event.jpg') no-repeat;
-	background-size: contain;
+	background-size: cover;
 	color: #fff;
 	padding: 30px;
 }
@@ -136,10 +136,9 @@ body{
 }
 
 #footer_nav{
-	color: #fff;
-	
+	color: #fff;	
 	background: #202020;
-	height: 300px;
+	height: 250px;
 	padding: 10px;
 	margin: 0;
 }
@@ -272,6 +271,8 @@ body{
    margin-right: 5px;
 }
 
+
+
 #menu-tile,#menu1-tile, #menu2-tile{
   height: 250px;
   width: 100%;
@@ -279,24 +280,23 @@ body{
   position: relative;
   border: 1px solid #c0c0c0;
   overflow: hidden;
-  border-radius: 10px;
 }
 #menu-tile:hover, #special-tile:hover, #map-tile:hover{
 	box-shadow: 0 1px 2px 1px #c0c0c0;
 }
 
 #menu-tile{
-	background: url('../images/branding-01.jpg') no-repeat;
+	background: url('../images/ciroc.jpg') no-repeat;
 	background-position: center;
 }
 
 #menu1-tile{
-	background: url('../images/branding-01.jpg') no-repeat;
+	background: url('../images/tang 3.jpg') no-repeat;
 	background-position: center;
 }
 
 #menu2-tile{
-	background: url('../images/branding-01.jpg') no-repeat;
+	background: url('../images/tecno again.jpg') no-repeat;
 	background-position: center;
 }
 
@@ -304,16 +304,24 @@ body{
   position: absolute;
   bottom: 0;
   right: 0;
+  height: 40px;
   width: 100%;
   text-align: center;
   font-size: 1.3em;
   background-color: #000;
   color: #fff;
   opacity: .8;
+  transition: height 2s;
 }
 
+#menu-tile > span:hover, #menu1-tile > span:hover, #menu2-tile > span:hover{
+ border-top: 2px solid #ff4500;
+ height: 80px;
+
+}
 .btn_tile{
-	margin: 0 auto;
+	margin: 30px;
+	text-align: center;
 	height: 50px;
 	width: 100%;
 }
@@ -337,8 +345,8 @@ width: 100%;
 border-top: 1px solid #d0d0d0;
 color: #aaa;
 text-align: center;
-margin: 0;
-margin-top: 20px;
+margin-top: 50px;
+margin-bottom: 50px;
 }
 
 .divider-text{
@@ -356,16 +364,17 @@ z-index: 1;
 }
 
 .panel-footer{
-	padding-top: 45px;
-	padding-bottom: 30px;
+	padding-top: 25px;
+	padding-bottom: 10px;
 	background-color: #fff;
 	color: #404040;
 	border-top: 0;
+	font-size: 12px;
 
 }
 
 .panel-footer div.row{
-	margin-bottom: 35px;
+	
 }
 
 #hours, #address{
